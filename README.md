@@ -39,10 +39,6 @@ Although Orion appears as a recognizable shape in the night sky, the stars are n
    ```
 4. Open the notebook file and run all cells
 
-## (Optional) Visualization Preview
-
-*Add screenshots of your 2D and 3D plots here if available*
-
 ## Author
 
 Mark Freire
