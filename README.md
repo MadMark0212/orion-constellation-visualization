@@ -1,32 +1,62 @@
-# Orion Constellation Visualization
+# Orion Constellation: Perception vs Reality
 
-## Overview
+## Project Overview
 
-This project visualizes the Orion constellation using both 2D and 3D plots to demonstrate the difference between how constellations appear from Earth and their true positions in space.
+Constellations are one of the most recognizable patterns in the night sky—but they are also misleading.
 
-## Objective
+This project explores the Orion constellation by visualizing it in both 2D and 3D to answer a key question:
 
-The goal of this project is to understand spatial perspective by comparing a flat (2D) representation of Orion with a 3D model that reveals the actual distances between stars.
+> **Do constellations actually exist as shapes in space, or are they just a result of perspective from Earth?**
 
-## Technologies Used
+Using real star coordinate data, this project reveals how human perception differs from physical reality.
+
+---
+
+## Objectives
+
+* Recreate the Orion constellation as seen from Earth (2D)
+* Model the true spatial positions of its stars (3D)
+* Compare perception vs reality through visualization
+
+---
+
+## Tools & Technologies
 
 * Python
 * Matplotlib
 * Jupyter Notebook
 
-## What I Built
+---
 
-* A **2D scatter plot** showing how Orion appears from Earth
-* A **3D scatter plot** displaying the real spatial distribution of the stars
-* Customized visuals to simulate a night sky
+## Visualizations
 
-## Key Insight
+### 2D View (Earth Perspective)
 
-Although Orion appears as a recognizable shape in the night sky, the stars are not actually close together. The 3D visualization shows that they are spread across vast distances, and the constellation shape is a result of our viewing perspective from Earth.
+A flat projection using only x and y coordinates.
+This resembles the familiar Orion shape seen in the night sky.
 
-## How to Run
+### 3D View (Actual Star Positions)
 
-1. Clone this repository
+A spatial visualization using x, y, and z coordinates.
+This reveals that the stars are **not aligned** and exist at vastly different distances.
+
+---
+
+## Key Insights
+
+* Constellations are **visual constructs**, not physical groupings
+* Stars that appear close together may be separated by massive distances
+* Human perception of the sky is shaped by a fixed viewpoint (Earth)
+
+---
+
+## How to Run the Project
+
+1. Clone the repository:
+
+   ```
+   git clone https://github.com/yourusername/orion-constellation-visualization.git
+   ```
 2. Install dependencies:
 
    ```
@@ -37,7 +67,18 @@ Although Orion appears as a recognizable shape in the night sky, the stars are n
    ```
    jupyter notebook
    ```
-4. Open the notebook file and run all cells
+4. Open and run the notebook
+
+---
+
+## Future Improvements
+
+* Connect stars to outline Orion’s shape
+* Add star labels and brightness scaling
+* Create an interactive 3D visualization
+* Include additional constellations for comparison
+
+---
 
 ## Author
 
